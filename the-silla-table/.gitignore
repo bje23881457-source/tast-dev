@@ -2,6 +2,7 @@
 /.next
 /.vercel
 /.wrangler
+/.open-next
 /out
 /build
 *.log

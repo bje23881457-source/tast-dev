@@ -2,8 +2,8 @@ import { NextResponse } from 'next/server';
 import { contactSchema } from '@/lib/contact-schema';
 import { siteConfig } from '@/lib/site';
 
-// Edge runtime so this deploys to Cloudflare Pages / edge hosts (no Node.js filesystem).
-export const runtime = 'edge';
+// Node.js runtime — OpenNext (Cloudflare Workers) runs this with nodejs_compat.
+export const runtime = 'nodejs';
 
 /**
  * Inquiry endpoint (spec §5.6).

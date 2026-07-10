@@ -12,3 +12,7 @@ const nextConfig = {
 };
 
 export default withNextIntl(nextConfig);
+
+// Enables Cloudflare bindings during `next dev` (OpenNext). No-op in production builds.
+import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
+initOpenNextCloudflareForDev();
