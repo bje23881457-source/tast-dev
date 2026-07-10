@@ -4,15 +4,15 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Fully static HTML export — deploys to Cloudflare Pages as plain static assets
+  // (no server/edge functions). The contact endpoint is a Cloudflare Pages Function
+  // (functions/api/contact.ts) and the "/" redirect is handled by public/_redirects.
+  output: 'export',
   reactStrictMode: true,
   images: {
-    // Local-only MVP: sample cover images are served from /public.
-    remotePatterns: [{ protocol: 'https', hostname: 'images.unsplash.com' }],
+    // Required for `output: 'export'` (no on-demand image optimization). We only use inline SVG.
+    unoptimized: true,
   },
 };
 
 export default withNextIntl(nextConfig);
-
-// Enables Cloudflare bindings during `next dev` (OpenNext). No-op in production builds.
-import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
-initOpenNextCloudflareForDev();

@@ -3,6 +3,9 @@ import { routing } from '@/i18n/routing';
 import { absoluteUrl } from '@/lib/site';
 import { getAllContentPaths } from '@/lib/content';
 
+// Emit as a static file for `output: 'export'`.
+export const dynamic = 'force-static';
+
 const STATIC_PATHS = ['', 'stories', 'experiences', 'guide', 'about', 'contact', 'privacy', 'terms'];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects. The app is locale-prefixed (/en, /ko); send the bare root
+# to the default locale (there is no middleware in a static export).
+/            /en   302
