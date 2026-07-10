@@ -37,6 +37,11 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+// Fully prerender every locale route (no on-demand fallback function). This keeps the whole
+// app static so it deploys to edge hosts (Cloudflare Pages) where the filesystem-based content
+// loader can't run at request time — content is read only at build. Unknown params -> 404.
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {

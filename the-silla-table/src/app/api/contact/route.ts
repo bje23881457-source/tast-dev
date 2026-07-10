@@ -1,16 +1,16 @@
 import { NextResponse } from 'next/server';
-import fs from 'node:fs';
-import path from 'node:path';
 import { contactSchema } from '@/lib/contact-schema';
 import { siteConfig } from '@/lib/site';
 
-export const runtime = 'nodejs';
+// Edge runtime so this deploys to Cloudflare Pages / edge hosts (no Node.js filesystem).
+export const runtime = 'edge';
 
 /**
  * Inquiry endpoint (spec §5.6).
- * Local MVP: validates with Zod, blocks honeypot bots, logs to the console and saves each
- * inquiry to ./.inquiries/*.json so you can inspect submissions without any email service.
- * Deployment: set RESEND_API_KEY to send to CONTACT_TO_EMAIL from the marked hook below.
+ * Validates with Zod, blocks honeypot bots, and logs the inquiry. There is no email service
+ * wired for the MVP, so submissions are acknowledged and written to the server log.
+ * Deployment: set RESEND_API_KEY and send from the marked hook below (Resend's HTTP API works
+ * on the edge via fetch).
  */
 export async function POST(request: Request) {
   let payload: unknown;
@@ -45,22 +45,24 @@ export async function POST(request: Request) {
     receivedAt: new Date().toISOString(),
   };
 
-  // Persist locally for inspection.
-  try {
-    const dir = path.join(process.cwd(), '.inquiries');
-    fs.mkdirSync(dir, { recursive: true });
-    const file = path.join(dir, `${Date.now()}-${data.email.replace(/[^a-z0-9]/gi, '_')}.json`);
-    fs.writeFileSync(file, JSON.stringify(record, null, 2), 'utf8');
-  } catch (err) {
-    console.error('[contact] failed to persist inquiry locally', err);
-  }
-
   console.log(`[contact] New inquiry for ${siteConfig.email}:`, record);
 
-  // --- Email delivery hook (deployment only) -------------------------------
+  // --- Email delivery hook (deployment only, edge-compatible) ---------------
   // if (process.env.RESEND_API_KEY) {
-  //   await sendWithResend(record, siteConfig.email);   // to operator
-  //   await sendAutoReply(record.email);                 // acknowledgement to sender
+  //   await fetch('https://api.resend.com/emails', {
+  //     method: 'POST',
+  //     headers: {
+  //       Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+  //       'Content-Type': 'application/json',
+  //     },
+  //     body: JSON.stringify({
+  //       from: `The Silla Table <hello@thesillatable.com>`,
+  //       to: siteConfig.email,
+  //       reply_to: record.email,
+  //       subject: `New inquiry from ${record.name}`,
+  //       text: JSON.stringify(record, null, 2),
+  //     }),
+  //   });
   // }
   // -------------------------------------------------------------------------
 
