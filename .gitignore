@@ -1,0 +1,22 @@
+# --- Dependencies / build output (also covered by the-silla-table/.gitignore) ---
+node_modules/
+.next/
+out/
+build/
+coverage/
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env*.local
+
+# --- Local contact-form submissions ---
+.inquiries/
+
+# --- Claude Code machine-local settings ---
+.claude/settings.local.json
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*.log

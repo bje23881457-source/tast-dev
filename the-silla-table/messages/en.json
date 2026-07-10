@@ -1,0 +1,189 @@
+{
+  "Brand": {
+    "name": "The Silla Table",
+    "tagline": "Pull up a chair. Hear the story of Silla.",
+    "valueProp": "Not a travel agency — a table set by someone who has guided Silla for 20 years. Its stories, its flavors, its experiences."
+  },
+  "Nav": {
+    "stories": "Stories",
+    "experiences": "Experiences",
+    "guide": "Guide",
+    "about": "About",
+    "contact": "Contact",
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "Home": {
+    "metaTitle": "The Silla Table — Gyeongju & Silla stories, flavors and experiences",
+    "metaDescription": "Deep, English-first cultural stories, hands-on experiences and honest travel guidance for Gyeongju — the thousand-year capital of Silla — from a host of 20 years.",
+    "heroKicker": "Gyeongju · The capital of Silla",
+    "heroCtaExplore": "Explore the stories",
+    "heroCtaContact": "Start an inquiry",
+    "storiesTitle": "Stories worth the journey",
+    "storiesSubtitle": "The meaning behind the monuments — history, food and season, told the way a host tells it.",
+    "experiencesTitle": "Sit at the table",
+    "experiencesSubtitle": "Small-group experiences and catering, hosted personally.",
+    "guideTitle": "Plan your visit",
+    "guideSubtitle": "Practical, honest guidance for getting the most out of Gyeongju.",
+    "viewAll": "View all",
+    "trustTitle": "Twenty years at the same table",
+    "trustBody": "For two decades we have welcomed international guests to Gyeongju — designing experiences, hosting groups, and catering events large and small. The Silla Table is where that hospitality lives online.",
+    "trustStatYears": "years hosting international guests",
+    "trustStatGuests": "guests welcomed",
+    "trustStatEvents": "events & catering delivered",
+    "finalCtaTitle": "Have a question, a date, or a group in mind?",
+    "finalCtaBody": "Tell us what you are hoping for. We reply personally, usually within one business day."
+  },
+  "About": {
+    "metaTitle": "About — The Silla Table",
+    "metaDescription": "The story behind The Silla Table: twenty years of hosting international guests in Gyeongju, and the philosophy of gathering stories, flavors and experiences at one table.",
+    "title": "A table set over twenty years",
+    "lead": "The Silla Table is not a booking platform. It is one host's twenty years of welcoming visitors to Gyeongju, brought online.",
+    "nameMeaningTitle": "Why “The Silla Table”",
+    "nameMeaningBody": "A table is where food is shared, where people sit together, and where stories are told. Those three things — flavor, gathering and story — are exactly what we have offered guests for two decades. One word holds all of it.",
+    "philosophyTitle": "Our philosophy",
+    "philosophyBody": "Big platforms show you a product. We give you context: why this pond was built, what this dish meant to a Silla court, why a season changes everything. Understanding is what turns a visit into a memory.",
+    "trustTitle": "Why you can trust us",
+    "trustBody": "Two decades of on-the-ground operation, from intimate cultural walks to large international-event catering. We host in English, we host in person, and we host as if you were coming to our own table.",
+    "ctaTitle": "Come to the table"
+  },
+  "Contact": {
+    "metaTitle": "Contact — The Silla Table",
+    "metaDescription": "Ask about a cultural experience, a Silla-inspired meal, or catering for your group in Gyeongju. We reply personally, usually within one business day.",
+    "title": "Start a conversation",
+    "lead": "Tell us what you are hoping for — a date, a group size, an experience or a catered event. We reply personally, usually within one business day.",
+    "detailsTitle": "Reach us",
+    "emailLabel": "Email",
+    "hoursLabel": "Response time",
+    "hoursValue": "Within one business day",
+    "locationLabel": "Based in",
+    "locationValue": "Gyeongju, Republic of Korea",
+    "followLabel": "Follow",
+    "mapTitle": "Getting here",
+    "mapPlaceholder": "Map embed appears here once NEXT_PUBLIC_MAPS_EMBED is configured. For this local MVP it is a styled placeholder."
+  },
+  "ContactForm": {
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "inquiryType": "Inquiry type",
+    "typeExperience": "Cultural experience",
+    "typeCatering": "Food & catering",
+    "typeGroup": "Group / MICE",
+    "typeOther": "Something else",
+    "groupSize": "Group size",
+    "groupSizePlaceholder": "e.g. 2 adults",
+    "preferredDate": "Preferred date",
+    "message": "Message",
+    "messagePlaceholder": "Tell us a little about what you have in mind…",
+    "consent": "I agree to the collection and use of my personal data (name, email) to respond to this inquiry.",
+    "consentLink": "Privacy Policy",
+    "optional": "optional",
+    "required": "required",
+    "submit": "Send inquiry",
+    "submitting": "Sending…",
+    "successTitle": "Thank you — your inquiry is on its way.",
+    "successBody": "We have received your message and will reply personally, usually within one business day.",
+    "errorTitle": "Something went wrong.",
+    "errorBody": "Your inquiry could not be sent. Please try again, or email us directly.",
+    "sendAnother": "Send another inquiry",
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Please write a short message.",
+      "messageShort": "Please add a little more detail (at least 10 characters).",
+      "consentRequired": "Please agree to the privacy terms so we can reply."
+    }
+  },
+  "Content": {
+    "filterAll": "All",
+    "filterLabel": "Filter by category",
+    "readMore": "Read more",
+    "backToStories": "All stories",
+    "backToExperiences": "All experiences",
+    "backToGuide": "All guides",
+    "relatedTitle": "Related experiences",
+    "onThisTopic": "More on this",
+    "publishedOn": "Published",
+    "updatedOn": "Updated",
+    "byAuthor": "By {author}",
+    "translationFallback": "This article is not yet available in your language — showing the English version.",
+    "empty": "No content here yet — please check back soon."
+  },
+  "Experience": {
+    "duration": "Duration",
+    "groupSize": "Group size",
+    "location": "Location",
+    "includes": "Includes",
+    "mealIncluded": "Meal included",
+    "priceRange": "Price",
+    "inquire": "Inquire about this experience"
+  },
+  "Categories": {
+    "history": "History",
+    "experience": "Experience",
+    "food": "Food",
+    "seasonal": "Seasonal",
+    "catering": "Catering"
+  },
+  "Stories": {
+    "metaTitle": "Stories — The Silla Table",
+    "metaDescription": "Cultural stories from Gyeongju and the Silla dynasty: history, food and season, told the way a host tells them.",
+    "title": "Stories",
+    "lead": "The meaning behind the monuments — history, food and season, told the way a host tells it."
+  },
+  "Experiences": {
+    "metaTitle": "Experiences — The Silla Table",
+    "metaDescription": "Small-group cultural experiences, Silla-inspired meals and catering in Gyeongju, hosted personally.",
+    "title": "Experiences",
+    "lead": "Small-group experiences, Silla-inspired meals and catering — hosted personally."
+  },
+  "Guide": {
+    "metaTitle": "Travel Guide — The Silla Table",
+    "metaDescription": "Practical, honest travel guidance for Gyeongju: how to get around, when to visit, and what not to miss.",
+    "title": "Travel guide",
+    "lead": "Practical, honest guidance for getting the most out of Gyeongju."
+  },
+  "CTA": {
+    "bannerTitle": "Ready to sit at the table?",
+    "bannerBody": "Ask about an experience, a meal, or catering for your group.",
+    "bannerButton": "Contact us"
+  },
+  "Footer": {
+    "tagline": "Gyeongju · Silla stories, flavors & experiences.",
+    "explore": "Explore",
+    "company": "The Silla Table",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "rights": "All rights reserved.",
+    "localNote": "Local development preview — not the production site."
+  },
+  "Cookie": {
+    "message": "We use essential cookies to run this site. With your consent we also use analytics cookies to understand how the site is used.",
+    "accept": "Accept analytics",
+    "decline": "Essential only",
+    "learnMore": "Privacy Policy"
+  },
+  "Legal": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Use",
+    "lastUpdated": "Last updated",
+    "placeholderNotice": "This is sample policy text for the MVP. Replace it with legal copy reviewed for PIPA (Korea) and GDPR (EU) before launch."
+  },
+  "NotFound": {
+    "title": "This page has wandered off",
+    "body": "The page you are looking for cannot be found. Let us guide you back.",
+    "home": "Back to home",
+    "stories": "Browse stories"
+  },
+  "Error": {
+    "title": "Something went wrong",
+    "body": "An unexpected error occurred. Please try again.",
+    "retry": "Try again"
+  }
+}

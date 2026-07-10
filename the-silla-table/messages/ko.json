@@ -1,0 +1,189 @@
+{
+  "Brand": {
+    "name": "The Silla Table",
+    "tagline": "자리에 앉으세요. 신라의 이야기를 들려드립니다.",
+    "valueProp": "여행사가 아니라, 현지를 20년간 안내해 온 사람이 직접 차려낸 한국 문화의 식탁 — 이야기, 맛, 그리고 체험."
+  },
+  "Nav": {
+    "stories": "이야기",
+    "experiences": "체험·식탁",
+    "guide": "여행 가이드",
+    "about": "소개",
+    "contact": "문의",
+    "skipToContent": "본문으로 건너뛰기",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "language": "언어"
+  },
+  "Home": {
+    "metaTitle": "The Silla Table — 경주·신라의 이야기, 맛, 그리고 체험",
+    "metaDescription": "천년 고도 경주와 신라의 문화를 20년 경력의 호스트가 직접 들려드립니다. 깊이 있는 문화 이야기, 손으로 하는 체험, 정직한 여행 정보.",
+    "heroKicker": "경주 · 신라의 수도",
+    "heroCtaExplore": "이야기 둘러보기",
+    "heroCtaContact": "문의 시작하기",
+    "storiesTitle": "여정의 가치가 있는 이야기",
+    "storiesSubtitle": "유적 너머의 의미 — 역사와 음식, 계절을 호스트의 시선으로 들려드립니다.",
+    "experiencesTitle": "식탁에 앉다",
+    "experiencesSubtitle": "직접 진행하는 소규모 체험과 케이터링.",
+    "guideTitle": "여행을 계획하세요",
+    "guideSubtitle": "경주를 200% 누리기 위한 정직하고 실용적인 안내.",
+    "viewAll": "전체 보기",
+    "trustTitle": "같은 식탁에서 보낸 20년",
+    "trustBody": "20년 동안 경주를 찾은 외국인 손님을 맞아왔습니다 — 체험을 설계하고, 단체를 안내하고, 크고 작은 행사를 케이터링했습니다. The Silla Table은 그 환대를 온라인으로 옮긴 공간입니다.",
+    "trustStatYears": "년간 외국인 손님 환대",
+    "trustStatGuests": "명의 손님 응대",
+    "trustStatEvents": "건의 행사·케이터링 진행",
+    "finalCtaTitle": "궁금한 점, 원하는 날짜, 함께할 인원이 있으신가요?",
+    "finalCtaBody": "무엇을 바라시는지 알려주세요. 보통 영업일 1일 이내에 직접 답장드립니다."
+  },
+  "About": {
+    "metaTitle": "소개 — The Silla Table",
+    "metaDescription": "The Silla Table의 이야기: 경주에서 외국인 손님을 맞아온 20년, 그리고 이야기·맛·체험을 한 식탁에 모으는 철학.",
+    "title": "20년에 걸쳐 차린 식탁",
+    "lead": "The Silla Table은 예약 플랫폼이 아닙니다. 경주를 찾은 손님을 맞아온 한 호스트의 20년을 온라인으로 옮긴 것입니다.",
+    "nameMeaningTitle": "왜 “The Silla Table”인가",
+    "nameMeaningBody": "식탁은 음식을 나누고, 사람이 둘러앉고, 이야기가 오가는 곳입니다. 맛·모임·이야기 — 이 세 가지가 바로 우리가 20년간 손님께 드려온 것입니다. 한 단어에 그 모든 것이 담겨 있습니다.",
+    "philosophyTitle": "우리의 철학",
+    "philosophyBody": "대형 플랫폼은 상품을 보여줍니다. 우리는 맥락을 드립니다 — 이 못이 왜 만들어졌는지, 이 음식이 신라 궁중에서 무엇을 뜻했는지, 왜 계절이 모든 것을 바꾸는지. 이해가 방문을 기억으로 바꿉니다.",
+    "trustTitle": "믿으셔도 되는 이유",
+    "trustBody": "소규모 문화 산책부터 대규모 국제 행사 케이터링까지, 현장에서 쌓은 20년. 영어로, 직접, 마치 우리 식탁에 손님을 모시듯 안내합니다.",
+    "ctaTitle": "식탁으로 오세요"
+  },
+  "Contact": {
+    "metaTitle": "문의 — The Silla Table",
+    "metaDescription": "경주에서의 문화 체험, 신라에서 영감을 받은 식사, 단체 케이터링을 문의하세요. 보통 영업일 1일 이내에 직접 답장드립니다.",
+    "title": "대화를 시작하세요",
+    "lead": "무엇을 바라시는지 알려주세요 — 날짜, 인원, 체험 또는 케이터링. 보통 영업일 1일 이내에 직접 답장드립니다.",
+    "detailsTitle": "연락처",
+    "emailLabel": "이메일",
+    "hoursLabel": "응답 시간",
+    "hoursValue": "영업일 1일 이내",
+    "locationLabel": "위치",
+    "locationValue": "대한민국 경주",
+    "followLabel": "팔로우",
+    "mapTitle": "오시는 길",
+    "mapPlaceholder": "NEXT_PUBLIC_MAPS_EMBED를 설정하면 지도 임베드가 여기에 표시됩니다. 이 로컬 MVP에서는 자리표시자로 대체됩니다."
+  },
+  "ContactForm": {
+    "name": "이름",
+    "namePlaceholder": "성함",
+    "email": "이메일",
+    "emailPlaceholder": "you@example.com",
+    "inquiryType": "문의 유형",
+    "typeExperience": "문화 체험",
+    "typeCatering": "음식·케이터링",
+    "typeGroup": "단체 / MICE",
+    "typeOther": "기타",
+    "groupSize": "인원",
+    "groupSizePlaceholder": "예: 성인 2명",
+    "preferredDate": "희망 날짜",
+    "message": "메시지",
+    "messagePlaceholder": "어떤 것을 생각하고 계신지 간단히 알려주세요…",
+    "consent": "이 문의에 답변하기 위한 개인정보(이름, 이메일)의 수집·이용에 동의합니다.",
+    "consentLink": "개인정보처리방침",
+    "optional": "선택",
+    "required": "필수",
+    "submit": "문의 보내기",
+    "submitting": "보내는 중…",
+    "successTitle": "감사합니다 — 문의가 전송되었습니다.",
+    "successBody": "메시지를 받았습니다. 보통 영업일 1일 이내에 직접 답장드립니다.",
+    "errorTitle": "문제가 발생했습니다.",
+    "errorBody": "문의를 보내지 못했습니다. 다시 시도하시거나 이메일로 직접 연락해 주세요.",
+    "sendAnother": "다시 문의하기",
+    "errors": {
+      "nameRequired": "이름을 입력해 주세요.",
+      "emailRequired": "이메일을 입력해 주세요.",
+      "emailInvalid": "올바른 이메일 주소를 입력해 주세요.",
+      "messageRequired": "간단한 메시지를 남겨 주세요.",
+      "messageShort": "조금 더 자세히 적어 주세요(최소 10자).",
+      "consentRequired": "답장을 드릴 수 있도록 개인정보 이용에 동의해 주세요."
+    }
+  },
+  "Content": {
+    "filterAll": "전체",
+    "filterLabel": "카테고리로 필터",
+    "readMore": "더 읽기",
+    "backToStories": "모든 이야기",
+    "backToExperiences": "모든 체험",
+    "backToGuide": "모든 가이드",
+    "relatedTitle": "관련 체험",
+    "onThisTopic": "관련 콘텐츠",
+    "publishedOn": "게시일",
+    "updatedOn": "수정일",
+    "byAuthor": "글: {author}",
+    "translationFallback": "이 글은 아직 한국어로 제공되지 않아 영어 버전을 표시합니다.",
+    "empty": "아직 콘텐츠가 없습니다 — 곧 다시 찾아주세요."
+  },
+  "Experience": {
+    "duration": "소요 시간",
+    "groupSize": "인원",
+    "location": "장소",
+    "includes": "포함 사항",
+    "mealIncluded": "식사 포함",
+    "priceRange": "가격",
+    "inquire": "이 체험 문의하기"
+  },
+  "Categories": {
+    "history": "역사",
+    "experience": "체험",
+    "food": "음식",
+    "seasonal": "계절",
+    "catering": "케이터링"
+  },
+  "Stories": {
+    "metaTitle": "이야기 — The Silla Table",
+    "metaDescription": "경주와 신라 왕조의 문화 이야기: 역사와 음식, 계절을 호스트의 시선으로 들려드립니다.",
+    "title": "이야기",
+    "lead": "유적 너머의 의미 — 역사와 음식, 계절을 호스트의 시선으로 들려드립니다."
+  },
+  "Experiences": {
+    "metaTitle": "체험·식탁 — The Silla Table",
+    "metaDescription": "경주에서 직접 진행하는 소규모 문화 체험, 신라에서 영감을 받은 식사와 케이터링.",
+    "title": "체험·식탁",
+    "lead": "직접 진행하는 소규모 체험과 신라에서 영감을 받은 식사, 그리고 케이터링."
+  },
+  "Guide": {
+    "metaTitle": "여행 가이드 — The Silla Table",
+    "metaDescription": "경주 여행을 위한 정직하고 실용적인 안내: 이동 방법, 방문 시기, 놓치면 안 될 것들.",
+    "title": "여행 가이드",
+    "lead": "경주를 200% 누리기 위한 정직하고 실용적인 안내."
+  },
+  "CTA": {
+    "bannerTitle": "식탁에 앉을 준비가 되셨나요?",
+    "bannerBody": "체험, 식사, 단체 케이터링을 문의해 보세요.",
+    "bannerButton": "문의하기"
+  },
+  "Footer": {
+    "tagline": "경주 · 신라의 이야기, 맛, 그리고 체험.",
+    "explore": "둘러보기",
+    "company": "The Silla Table",
+    "legal": "법적 고지",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "rights": "All rights reserved.",
+    "localNote": "로컬 개발 미리보기 — 실제 서비스가 아닙니다."
+  },
+  "Cookie": {
+    "message": "이 사이트 운영을 위해 필수 쿠키를 사용합니다. 동의하시면 사이트 이용 방식을 파악하기 위한 분석 쿠키도 사용합니다.",
+    "accept": "분석 동의",
+    "decline": "필수만 사용",
+    "learnMore": "개인정보처리방침"
+  },
+  "Legal": {
+    "privacyTitle": "개인정보처리방침",
+    "termsTitle": "이용약관",
+    "lastUpdated": "최종 수정",
+    "placeholderNotice": "이 문구는 MVP용 샘플입니다. 런칭 전 개인정보보호법(한국)과 GDPR(EU)을 검토한 정식 문구로 교체하세요."
+  },
+  "NotFound": {
+    "title": "길을 잃은 페이지",
+    "body": "찾으시는 페이지를 찾을 수 없습니다. 다시 안내해 드릴게요.",
+    "home": "홈으로",
+    "stories": "이야기 보기"
+  },
+  "Error": {
+    "title": "문제가 발생했습니다",
+    "body": "예상치 못한 오류가 발생했습니다. 다시 시도해 주세요.",
+    "retry": "다시 시도"
+  }
+}

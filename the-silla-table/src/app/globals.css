@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #ffffff;
+    --color-fg: #1b2432;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white text-ink-800 antialiased;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+  }
+
+  /* Visible focus for keyboard users (WCAG 2.1 AA, spec §8.1). */
+  :focus-visible {
+    @apply outline-none ring-2 ring-gold ring-offset-2 ring-offset-white;
+  }
+
+  ::selection {
+    @apply bg-gold/30 text-ink-900;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-content px-5 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium
+      tracking-wide transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-gold text-ink-900 hover:bg-gold-600 focus-visible:ring-gold;
+  }
+
+  .btn-secondary {
+    @apply btn border border-ink-800/20 bg-transparent text-ink-800 hover:border-ink-800/50 hover:bg-sand-50
+      focus-visible:ring-ink-800;
+  }
+
+  .btn-ghost-light {
+    @apply btn border border-white/40 bg-white/5 text-white hover:bg-white/15 focus-visible:ring-white;
+  }
+
+  .kicker {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-gold-600;
+  }
+
+  .eyebrow {
+    @apply text-sm font-medium uppercase tracking-[0.18em] text-gold-600;
+  }
+
+  .section {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  .card {
+    @apply relative flex flex-col overflow-hidden rounded-2xl border border-sand-200 bg-white
+      transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-ink-900/5;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full border border-sand-200 bg-sand-50 px-3 py-1 text-xs
+      font-medium text-ink-700 transition-colors;
+  }
+
+  .chip-active {
+    @apply border-gold bg-gold text-ink-900;
+  }
+
+  /* Rich text body for MDX content. */
+  .prose-silla {
+    @apply max-w-none text-[1.075rem] leading-8 text-ink-700;
+  }
+  .prose-silla > * + * {
+    @apply mt-6;
+  }
+  .prose-silla h2 {
+    @apply mt-12 font-serif text-2xl font-semibold text-ink-900 sm:text-3xl;
+  }
+  .prose-silla h3 {
+    @apply mt-10 font-serif text-xl font-semibold text-ink-900;
+  }
+  .prose-silla p {
+    @apply text-ink-700;
+  }
+  .prose-silla a {
+    @apply font-medium text-clay underline decoration-gold/60 underline-offset-4 hover:decoration-gold;
+  }
+  .prose-silla ul {
+    @apply list-disc space-y-2 pl-6 marker:text-gold;
+  }
+  .prose-silla ol {
+    @apply list-decimal space-y-2 pl-6 marker:text-gold;
+  }
+  .prose-silla blockquote {
+    @apply border-l-2 border-gold pl-5 font-serif text-xl italic text-ink-800;
+  }
+  .prose-silla strong {
+    @apply font-semibold text-ink-900;
+  }
+  .prose-silla img {
+    @apply rounded-xl;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
